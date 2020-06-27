@@ -1,6 +1,6 @@
 /*
     You can use multiple
-    if ...else… if statements, as in the previous chapter, to perform a multiway branch.
+    if ...else… if statements, as in the previous tutorial, to perform a multiway branch.
     However, this is not always the best solution, especially when all of the branches depend on the value of a single variable.
 
     Syntax - 

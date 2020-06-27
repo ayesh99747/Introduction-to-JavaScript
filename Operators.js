@@ -60,7 +60,8 @@ Comparison Operators
             Checks if the value of the left operand is greater than the value of the right operand, if yes, then the condition 
             becomes true.
         < (Less than) -     
-            Checks if the value of the left operand is less than the value of the right operand, if yes, then the condition becomes true.
+            Checks if the value of the left operand is less than the value of the right operand, if yes, then the condition 
+            becomes true.
         >= (Greater than or Equal to) - 
             Checks if the value of the left operand is greater than or equal to the value of the right operand, if yes, 
             then the condition becomes true.

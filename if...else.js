@@ -1,10 +1,11 @@
 /*
-The if statement is the fundamental control statement that allows JavaScript to make decisions and execute statements conditionally.
+The if statement is the fundamental control statement that allows JavaScript to make decisions and execute statements 
+conditionally.
 
 The syntax for a basic if statement is as follows −
-if (expression) {
-   Statement(s) to be executed if expression is true
-}
+    if (expression) {
+    Statement(s) to be executed if expression is true
+    }
 */
 console.log('-------------');
 console.log('if example - ');
@@ -17,14 +18,15 @@ if (age > 18) {
 }
 
 /*
-The 'if...else' statement is the next form of control statement that allows JavaScript to execute statements in a more controlled way.
+The 'if...else' statement is the next form of control statement that allows JavaScript to execute statements in a more 
+controlled way.
 
-The syntax for a basic if statement is as follows −
-if (expression) {
-   Statement(s) to be executed if expression is true
-} else {
-   Statement(s) to be executed if expression is false
-}
+The syntax for a basic if...else statement is as follows −
+    if (expression) {
+    Statement(s) to be executed if expression is true
+    } else {
+    Statement(s) to be executed if expression is false
+    }
 */
 console.log();
 console.log('--------------------');
@@ -40,18 +42,19 @@ if (age > 18) {
 }
 
 /*
-The if...else if... statement is an advanced form of if…else that allows JavaScript to make a correct decision out of several conditions.
+The if...else if... statement is an advanced form of if…else that allows JavaScript to make a correct decision out of several 
+conditions.
 
 The syntax for a basic if statement is as follows −
-if (expression 1) {
-   Statement(s) to be executed if expression 1 is true
-} else if (expression 2) {
-   Statement(s) to be executed if expression 2 is true
-} else if (expression 3) {
-   Statement(s) to be executed if expression 3 is true
-} else {
-   Statement(s) to be executed if no expression is true
-}
+    if (expression 1) {
+    Statement(s) to be executed if expression 1 is true
+    } else if (expression 2) {
+    Statement(s) to be executed if expression 2 is true
+    } else if (expression 3) {
+    Statement(s) to be executed if expression 3 is true
+    } else {
+    Statement(s) to be executed if no expression is true
+    }
 */
 console.log();
 console.log('-------------------------');
