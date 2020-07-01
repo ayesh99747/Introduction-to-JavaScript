@@ -11,7 +11,9 @@ var carName2 = 'Volvo XC60'; // Single quotes
 var answer1 = "It's alright";
 var answer2 = "He is called 'Johnny'";
 var answer3 = 'He is called "Johnny"';
-
+console.log(answer1);
+console.log(answer2);
+console.log(answer3);
 
 
 /* Escape Character
@@ -25,13 +27,14 @@ The backslash(\) escape character turns special characters into string character
 
 // The sequence \"  inserts a double quote in a string:
 var x = "We are the so-called \"Vikings\" from the north.";
+console.log(x);
 
 // The sequence \'  inserts a single quote in a string:
 var x = 'It\'s alright.';
-
+console.log(x);
 // The sequence \\  inserts a backslash in a string:
 var x = "The character \\ is called backslash.";
-
+console.log(x);
 
 
 /* 
@@ -43,21 +46,22 @@ But strings can also be defined as objects with the keyword new:
 */
 var x = "John"; // typeof x will return string
 var y = new String("John"); // typeof y will return object
-
+console.log(typeof x);
+console.log(typeof y);
 
 
 // When using the == operator, equal strings are equal:
 // (x == y) is true because x and y have equal values
 var x = "John";
 var y = new String("John");
-
+console.log(x == y);
 
 
 // When using the === operator, equal strings are not equal, because the === operator expects equality in both type and value.
 // (x === y) is false because x and y have different types (string and object)
 var x = "John";
 var y = new String("John");
-
+console.log(x === y);
 
 
 // Or even worse. Objects cannot be compared:
@@ -65,8 +69,8 @@ var y = new String("John");
 // also (x === y) is false because x and y are different objects
 var x = new String("John");
 var y = new String("John");
-
-
+console.log(x == y);
+console.log(x === y);
 
 //STRING METHODS
 // To find the length of a string, use the built-in length property:
@@ -134,7 +138,7 @@ console.log(res);
 /*
 The substring() Method
     substring() is similar to slice().
-    The difference is that substring() cannot accept negative indexes.
+    The difference is that substring() cannot accept negative indices.
     If you omit the second parameter, substring() will slice out the rest of the string.
 */
 var str = "Apple, Banana, Kiwi";

@@ -23,7 +23,7 @@ Precision
     Integers (numbers without a period or exponent notation) are accurate up to 15 digits.
 */
 var x = 999999999999999; // x will be 999999999999999
-var y = 9999999999999999; // y will be 10000000000000000
+var y = 9999999999999999; // y will be 10,000,000,000,000,000
 console.log(x);
 console.log(y);
 
@@ -168,7 +168,7 @@ console.log(myNumber.toString(10)); // returns 32
 console.log(myNumber.toString(32)); // returns 10
 console.log(myNumber.toString(16)); // returns 20
 console.log(myNumber.toString(8)); // returns 40
-console.log(myNumber.toString(2)); // returns 100000
+console.log(myNumber.toString(2)); // returns 100,000
 
 /*
 Numbers Can be Objects
@@ -180,7 +180,7 @@ But numbers can also be defined as objects with the keyword new:
 var x = 123;
 var y = new Number(123);
 console.log(typeof(x)); // typeof x returns number
-console.log(typeof(x)); // typeof y returns object
+console.log(typeof(y)); // typeof y returns object
 
 
 // When using the == operator, equal numbers are equal:
@@ -316,7 +316,7 @@ Number("John"); // returns NaN
 The Number() Method Used on Dates
     Number() can also convert a date to a number:
 */
-Number(new Date("2017-09-30")); // returns 1506729600000
+Number(new Date("2017-09-30")); // returns 1,506,729,600,000
 // The Number() method above returns the number of milliseconds since 1.1.1970.
 
 /*

@@ -22,7 +22,6 @@ console.log(Boolean(10 > 9)); // returns true
 
 // Or even easier:
 console.log(10 > 9); // also returns true
-console.log(10 > 9); // also returns true
 
 /*
 Comparisons and Conditions
@@ -30,57 +29,50 @@ Comparisons and Conditions
         Operator	    Description	    Example
         ==	            equal to	    if (day == "Monday")
         >	            greater than	if (salary > 9000)
-        <	            less than	if (age < 18)
+        <	            less than	    if (age < 18)
 */
 
 /*
 The Boolean value of an expression is the basis for all JavaScript comparisons and conditions.
     Everything With a "Value" is True
 */
-console.log(100);
-console.log(3.14);
-console.log(15);
-console.log("Hello");
-console.log("false");
-console.log(7 + 1 + 3.14);
+console.log(Boolean(100));
+console.log(Boolean(3.14));
+console.log(Boolean(15));
+console.log(Boolean("Hello"));
+console.log(Boolean("false"));
+console.log(Boolean(7 + 1 + 3.14));
 
 /*
 Everything Without a "Value" is False
 The Boolean value of 0 (zero) is false:
 */
 var x = 0;
-Boolean(x); // returns false
-console.log(x);
+console.log(Boolean(x)); // returns false
 
 // The Boolean value of -0 (minus zero) is false:
 var x = -0;
-Boolean(x); // returns false
-console.log(x);
+console.log(Boolean(x)); // returns false
 
 // The Boolean value of "" (empty string) is false:
 var x = "";
-Boolean(x); // returns false
-console.log(x);
+console.log(Boolean(x)); // returns false
 
 // The Boolean value of undefined is false:
 var x;
-Boolean(x); // returns false
-console.log(x);
+console.log(Boolean(x)); // returns false
 
 // The Boolean value of null is false:
 var x = null;
-Boolean(x); // returns false
-console.log(x);
+console.log(Boolean(x)); // returns false
 
 // The Boolean value of false is (you guessed it) false:
 var x = false;
-Boolean(x); // returns false
-console.log(x);
+console.log(Boolean(x)); // returns false
 
 // The Boolean value of NaN is false:
 var x = 10 / "H";
-Boolean(x); // returns false
-console.log(x);
+console.log(Boolean(x)); // returns false
 
 /*
 Booleans Can be Objects

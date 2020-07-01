@@ -62,7 +62,7 @@ Changing an Array Element
 */
 var cars = ["Saab", "Volvo", "BMW"];
 cars[0] = "Opel";
-
+console.log(cars);
 /*
 Access the Full Array
     With JavaScript, the full array can be accessed by referring to the array name:
@@ -297,7 +297,7 @@ console.log(fruits);
 // The pop() method returns the value that was "popped out":
 var fruits = ["Banana", "Orange", "Apple", "Mango"];
 var x = fruits.pop(); // the value of x is "Mango"
-console.log(fruits);
+console.log(x);
 
 /*
 Pushing
@@ -310,7 +310,7 @@ console.log(fruits);
 // The push() method returns the new array length:
 var fruits = ["Banana", "Orange", "Apple", "Mango"];
 var x = fruits.push("Kiwi"); //  the value of x is 5
-console.log(fruits);
+console.log(x);
 
 /*
 Shifting Elements
@@ -426,7 +426,7 @@ Slicing an Array
 */
 var fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
 var citrus = fruits.slice(1);
-console.log(myChildren);
+console.log(fruits);
 
 /*
 The slice() method creates a new array. It does not remove any elements from the source array.
@@ -447,7 +447,7 @@ console.log(citrus);
 // If the end argument is omitted, like in the first examples, the slice() method slices out the rest of the array.
 var fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
 var citrus = fruits.slice(2);
-console.log(myChildren);
+console.log(citrus);
 /*
 Automatic toString()
     JavaScript automatically converts an array to a comma separated string when a primitive value is expected.
